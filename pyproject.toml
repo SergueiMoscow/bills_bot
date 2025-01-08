@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "bot-bitza"
+version = "0.1.0"
+description = ""
+authors = ["sergey <sbitza@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiofiles = "^24.1.0"
+aiogram = "^3.17.0"
+environs = "^11.2.1"
+pika = "^1.3.2"
+aio-pika = "^9.5.4"
+grpcio = "^1.69.0"
+protobuf = "^5.29.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

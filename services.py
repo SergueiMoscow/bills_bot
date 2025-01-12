@@ -52,7 +52,7 @@ async def send_file_and_metadata(
     username: str,
     description: str
 ) -> str:
-    channel = grpc.aio.insecure_channel(BILLS_SERVICE_URL)  # Замените URL и порт на нужные
+    channel = grpc.aio.insecure_channel(BILLS_SERVICE_URL)
     stub = file_service_pb2_grpc.FileServiceStub(channel)
 
     # Чтение файла в байты

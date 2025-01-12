@@ -3,7 +3,7 @@ import os
 import aiofiles
 from aiogram import types
 
-from services import send_metadata_to_rabbitmq, send_file_to_rabbitmq, send_file_and_metadata, send_text_params
+from services import send_file_and_metadata, send_text_params
 from settings import AUTHORIZED_USERS, AUTHORIZED_PATH, UNAUTHORIZED_PATH
 
 

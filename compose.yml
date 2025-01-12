@@ -1,0 +1,9 @@
+services:
+  bill_bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/app
+      - "/storages:/storages"
+    restart: unless-stopped

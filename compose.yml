@@ -3,6 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    container_name: bills_bot
     volumes:
       - ./:/app
       - "/storages:/storages"
